@@ -4,6 +4,10 @@
 
 A passive infrastructure reconnaissance tool. Feed it a domain, and it analyzes DNS structure, CDN attribution, tech stack, email security configuration, subdomains, and exposed paths, then outputs a self-contained HTML + Markdown report.
 
+Now ships with a **local web console** (`python app.py`) — real-time streaming progress, port scanner, network analyzer, and FTP browser, all in one UI.
+
+![OSINT Web Console](./docs/screenshot-console.png)
+
 Inspired by the [btc.day CDN exposure case](https://x.com/mork1e). By tracking publicly available infrastructure information, you can peel back the deployment structure layer by layer.
 
 ---
