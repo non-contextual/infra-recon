@@ -1,4 +1,4 @@
-# OSINT Recon Tool
+# Infra Recon
 
 > Read this in: English · [简体中文](./README.zh-CN.md)
 

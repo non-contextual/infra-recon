@@ -1,4 +1,4 @@
-# OSINT Recon Tool
+# Infra Recon
 
 > 其他语言：[English](./README.md) · 简体中文
 
