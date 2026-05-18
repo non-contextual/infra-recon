@@ -1,24 +1,23 @@
-# Python 编译缓存
+# Python
 __pycache__/
 *.pyc
 *.pyo
 
-# 生成的报告文件（不纳入版本控制）
-*_report.html
-*_report.md
-
-# 编辑器 / 系统
-.claude/
-.vscode/
-.DS_Store
-Thumbs.db
-
-# 虚拟环境
+# Virtual environment
 venv/
 .venv/
 env/
 
-# 扫描产出的数据和报告（含敏感信息，不入库）
+# Environment — API keys
+.env
+.env.*
+!.env.example
+
+# Generated reports (may contain scan results)
+*_report.html
+*_report.md
+
+# Scan output data
 active_scan/ftp_data.json
 active_scan/ftp_tree.html
 active_scan/poc_evidence.json
@@ -28,6 +27,19 @@ active_scan/vulnerability_report.md
 active_scan/test_*
 active_scan/preview*.png
 *_snapshot.json
-.txt
 *.txt
+
+# Logs
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# gstack
 .gstack/
